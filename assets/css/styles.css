@@ -279,6 +279,12 @@ button {
   margin-bottom: var(--space-lg);
 }
 
+.hero-buttons {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}
+
 .hero-button {
   display: inline-block;
   align-self: flex-start;
